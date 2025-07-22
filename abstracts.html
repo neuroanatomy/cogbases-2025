@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Spectral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">CogBases</a></h1>
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html#introduction">Introduction</a></li>
+								<li><a href="index.html#tools">Tools</a></li>
+								<li><a href="index.html#speakers">Speakers</a></li>
+								<li><a href="index.html#schedule">Schedule</a></li>
+								<li><a href="index.html#registration">Registration</a></li>
+								<li><a href="index.html#venue">Venue</a></li>
+								<li><a href="abstracts.html">Abstracts</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Abstracts</h2>
+							<p>Abstracts for the CogBases workshop</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h4>Jean-Baptiste Poline</h4>
+
+								<h3>A fully decentralized data management and processing ecosystem for neuroimaging and phenotypic data</h3>
+								
+								<p>There are a number of great centralized resources for accessing data in human neuroimaging. The most prominent one is OpenNeuro, based on the BIDS standard, giving access to more than 20,000 participants with MRI data. However, internally the phenotypic variables described in the BIDS datasets on OpenNeuro are not harmonized (e.g., column names representing the same variable are coded differently) and if other datasets are available, their demographic, clinical or cognitive assessments variables will also need harmonization. Concerning the derived data, while there is already some work by the BIDS community to establish a standard representation (BIDS-derivative proposal), local neuroimaging processing are generally lacking a specification that can be followed to foster simple view and sharing of processed data with standard pipelines. In summary, there are still a lot of manual steps that are making data management and processing error prone and ineffective.
+								
+								<p>We present an ecosystem consisting of NeuroBagel, a _distributed_ and scalable approach based on semantic web technologies for harmonizing and sharing phenotypic and neuroimaging variables (with a DataLad backend, work in progress), and NiPoppy, a specification for MRI processings to integrate derived data and curation information. We used NeuroBagel tools to harmonize the OpenNeuro MRI data as well as several Parkinson datasets (Quebec Parkinson Network, Parkinson Progression Marker Initiative, etc) and will demonstrate how new neuroimaging cohorts can be defined from several datasets from open or close datasets. We will show how NiPoppy can help with the standardization of the management and monitoring of neuroimaging data processing.
+								
+								<p>We think - and hope - that the proposed distributed ecosystem will foster easier and more scalable neuroimaging datasharing for machine learning applications.
+								
+								<hr />
+								
+								<h4>Camille Maumet</h4>
+								
+								<h3></h3>Towards reproducible neuroimaging across different analysis pipelines
+								
+								<p>When changes in the analysis methods lead to different results, what does it tell us on our research? In this talk we
+								will discuss reproducibility in the field of neuroimaging. Neuroimaging studies are characterized by a very large analysis space and, to build their analyses, practitioners must choose between different software, software versions, algorithms, parameters, etc. For many years, those choices have been considered as implementation details but evidence is growing that the exact choices of analytical strategy can lead
+								to different and sometimes contradictory results. We will review our recent efforts to better cope with and understand the different sources of this analytical variability in neuroimaging.
+								
+								<hr />
+
+								<h4>Jérôme Dockès</h4>
+					
+								<h3>Large-scale automated meta-analysis.</h3>
+								
+								<p>NeuroSynth formulated and realized the idea of performing neuroimaging meta-analyses automatically and at a large scale.
+								Since its first release, significant improvements have been acheived in the collection and curation of published results.
+								Moreover, the neuroimaging community has explored new ways of exploiting large datasets of text and brain activations, such as multivariate predictive modelling (NeuroQuery, Text2Brain), and more challenging tasks such as open-ended decoding or the joint analysis of coordinates and full statistical maps (Peaks2Image).
+								At the same time, we have improved our understanding of the pitfalls of fully automated approaches, and of limitations in the way results are reported and images are shared.
+								This talk will provide an overview of the datasets and tools available to researchers who want to analyze neuroimaging results at the scale of the published literature, some of the challenges to be tackled and some ongoing efforts.
+								
+								<hr />
+								<h4>Russel Poldrack</h4>
+								<h3>The future of (open) human neuroscience</h3>
+								<p>As shown in the talks at this meeting, the field of human neuroscience has amassed an impressive set of open source tools and datasets.  I will reflect on the development of this open science ecosystem, touching particularly on the ways in which its intersection with the Python open source ecosystem have accelerated progress and centered openness.  I will then turn to the future of this ecosystem, with a particular focus on both the possibilities and the risks of increasingly powerful AI tools for the reproducibility and transparency of research in the near future.
+								
+								<hr />
+								
+								<h4>Angela Laird</h4>
+								
+								<h3>"Neurosynth: New advances in open and reproducible neuroimaging meta-analyses”</h3>
+								
+								<p>In this presentation, I will describe new advances in the Neurosynth platform for conducting neuroimaging meta-analyses. First, I will provide an overview of large-scale meta-analytic approaches and functional decoding methods. Next, I will outline the role of NiMARE (Neuroimaging Meta-Analysis Research Environment), a Python package for coordinate-based and image-based meta-analyses, in the broader meta-analytic ecosystem. Finally, I will present the recently released Neurosynth-Compose, which allows more detailed and custom meta-analyses and systematic reviews directly from the browser.
+								
+								<hr />
+								
+								<h3>Sara Genon</h3>
+								<h4>From the complexity of brain organization to challenges in brain-behaviour mapping</h4>
+								
+								<p>Understanding brain-behaviour relationships in humans remains as one of the most complex scientific question. For a few decades, data offered by neuroimaging approaches, in particular MRI, have been under intense scientific investigations and methodological questioning. These have highlighted continuous challenges and open questions. Several principles and challenges in studying brain organization and brain-behaviour relationships will be illustrated here by one of the most studied brain region, the hippocampus. Beyond regional mapping, multivariate brain mapping to behaviour has more recently opened new perspectives by revealing complex patterns of brain-behaviour relationships. However, these approaches also come with their own challenges. In that framework, I will here point to two major questions tackled in our studies: generalizability and interpretability.</p>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
